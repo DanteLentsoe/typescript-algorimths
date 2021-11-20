@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
+import Sorting from "../algorithms/sorting";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -24,13 +24,14 @@ const Home: NextPage = () => {
         </h1>
 
         <p className={styles.description}>
-          Outside of the misspelled repo name I try and get you a step up in
-          your data structures and algorimths game
+          Outside of the misspelled repo name I will try and get you a step up
+          in your data structures and algorimths game
         </p>
         <p>
           Check the <code className={styles.code}>console.log</code>
         </p>
       </main>
+      <Sorting />
 
       <footer className={styles.footer}>
         <a
