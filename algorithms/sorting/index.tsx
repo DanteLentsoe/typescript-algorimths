@@ -13,7 +13,7 @@ const Sorting: NextPage = () => {
      * we get access to two parameters
      * a and b, then we take a from b, which are the indexes of the array
      * thus the lowest number in the array will carry over and move to the left i.e [1,6,3],
-     *  1 will remain where it is, 6 will be comparied to 3, then since 3 is less then 3, 3 will be placed after 6
+     *  1 will remain where it is, 6 will be comparied to 3, then since 3 is less then 6, 3 will be placed after 6
      * this function will continue until no numbers are misplaced
      */
 
